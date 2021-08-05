@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>第二篇博客 | Hexo</title>
+  <title>友情链接 | Hexo</title>
 
   
     
@@ -70,7 +70,8 @@
         <script src="/js/valine/av-min@3.0.4.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js"></script>
     
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+</head>
 
   
   <!-- 依赖于jquery和vue -->
@@ -402,6 +403,21 @@
       
  <!-- prismjs 代码高亮 -->
  
+    
+    <link href="/js/prism/prism-line-numbers.css" rel="stylesheet">
+    
+        <link href="/js/prism/prism.min.css" rel="stylesheet">
+    
+
+    <style>
+        pre[class*="language-"] {
+            overflow-y: hidden;
+        }
+        .line-numbers .line-numbers-rows {
+            border: none;
+        }
+    </style>
+  
 
 
 <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
@@ -411,7 +427,7 @@
 
 
 
-<div class="post-detail-header lazyload" id="thumbnail_canvas" data-original="/medias/15.jpg" style="background-repeat: no-repeat; background-size: cover; 
+<div class="post-detail-header lazyload" id="thumbnail_canvas" data-original="/medias/11.jpg" style="background-repeat: no-repeat; background-size: cover; 
   background-position: center center;position: relative;">
   <div class="post-detail-header-mask"></div>
   <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
@@ -419,20 +435,10 @@
   <div class="post-detail-header_info-box">
     <div class="title-box">
       <span class="title">
-        第二篇博客
+        friends
       </span>
     </div>
     
-    
-      
-        <span class="post-detail-header_date">
-          <i class="fa fa-calendar"></i> 发表于：2021-08-05 |
-        </span>
-      
-
-      
-
-      
     
   </div>
   
@@ -448,7 +454,7 @@
     <article class="post post-detail">
       
       <div class="post-content">
-        <h2 id="赵志哈是个帅哥"><a href="#赵志哈是个帅哥" class="headerlink" title="赵志哈是个帅哥"></a>赵志哈是个帅哥</h2>
+        
       </div>
       <div class="post-tags-categories">
         
@@ -461,7 +467,7 @@
     </li>
     <li class="post-copyright-link">
     <strong>文章链接:  </strong>
-    <a href="/2021/08/05/第二篇博客/" target="_blank" title="第二篇博客">https://byterunout.github.io/2021/08/05/第二篇博客/</a>
+    <a href="/friends/index.html" target="_blank" title="friends">https://byterunout.github.io/friends/index.html</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明:   </strong>
@@ -480,26 +486,6 @@
 
 
 
-
-  
-  <div class="post-nav-next post-nav-item">
-    <div class="post-nav-img lazyload" data-original="/medias/5.jpg" style="background-size: cover; 
-      background-position: center center;">
-    </div>
-    <a href="/2021/08/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="post-nav-link">
-      <div class="title">
-        下一篇: <i class="fa fa-angle-right"></i>
-        <div class="title-text">我的第一篇博客</div>
-      </div>
-      <!-- <div class="content">
-        ##第一章
-内容
-##第二章
-内容
-
-      </div> -->
-    </a>
-  </div>
 
 </div>
 
@@ -720,47 +706,22 @@
   <!-- 目录 -->
   <!-- 文章详情页右侧目录 -->
 
-  <div class="toc-aside">
-    <div class="toc-main">
-      <div class="toc-aside-title">
-        <i class="fa fa-list-ul" aria-hidden="true"></i><span>本文目录</span>
-        
-          <div class="toc-open-close">本文目录</div>
-        
-      </div>
-      <div class="toc-content">
-        <div class="toc"></div>
-      </div>
-    </div>
-  </div>
-  <!-- js在scripts目录下的的toc.ejs里面 -->
-  
-
-  <script>
-    function openBtnClickFn () {
-      let openOrCloseBtn = $('.toc-aside .toc-aside-title .toc-open-close');
-      let open = eval('' || 'true');
-      openOrCloseBtn.click(function() {
-        if (open === true) {
-          $(".toc-aside").css({'width': 0, 'padding': 0});
-          $(".toc-content").css({'width': 0});
-          $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
-          $(".main-content").css({'width': '75%', 'margin': '10px auto'});
-          open = false;
-        } else {
-          $(".toc-aside").css({'width': '300px', 'padding': '0 10px'});
-          $(".toc-content").css({'width': '300px'});
-          $(".toc-aside-title span, .toc-aside-title i").css({'display': 'inline-block'});
-          $(".main-content").css({'width': '65%', 'margin-right': '10px', 'margin-left': 'calc(35% - 350px)'});
-          open = true;
-        }
-      });
-    };
-    openBtnClickFn();
-    document.addEventListener('pjax:complete', function () {
-      openBtnClickFn();
-    })
-  </script>
+  <style>
+    .toc-aside {
+      width: 0;
+      padding: 0;
+    }
+    .toc-aside .toc-content {
+      width: 0;
+    }
+    .toc-aside-title span, .toc-aside-title i {
+      display: none;
+    }
+    .main-content {
+      width: 75%;
+      margin: 10px auto;
+    }
+  </style>
 
 
   
