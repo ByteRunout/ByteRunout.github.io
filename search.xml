@@ -18,10 +18,10 @@
     
     <entry>
       <title>我的第一篇博客</title>
-      <link href="/2021/08/05/di-san-pian-bo-ke/"/>
-      <url>/2021/08/05/di-san-pian-bo-ke/</url>
+      <link href="/2021/08/05/wo-de-di-yi-pian-bo-ke/"/>
+      <url>/2021/08/05/wo-de-di-yi-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[<p>赵志哈</p>]]></content>
+        <content type="html"><![CDATA[<p>##第一章</p><p>内容</p><p>##第二章</p><p>内容</p>]]></content>
       
       
       
@@ -31,10 +31,10 @@
     
     <entry>
       <title>我的第一篇博客</title>
-      <link href="/2021/08/05/wo-de-di-yi-pian-bo-ke/"/>
-      <url>/2021/08/05/wo-de-di-yi-pian-bo-ke/</url>
+      <link href="/2021/08/05/di-san-pian-bo-ke/"/>
+      <url>/2021/08/05/di-san-pian-bo-ke/</url>
       
-        <content type="html"><![CDATA[<p>##第一章</p><p>内容</p><p>##第二章</p><p>内容</p>]]></content>
+        <content type="html"><![CDATA[<p>赵志哈</p>]]></content>
       
       
       
